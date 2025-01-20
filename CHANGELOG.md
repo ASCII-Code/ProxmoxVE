@@ -17,6 +17,18 @@ All LXC instances created using this repository come pre-installed with Midnight
 Do not break established syntax in this file, as it is automatically updated by a Github Workflow
 
 
+## 2025-01-20
+
+### Changed
+
+### ✨ New Scripts
+
+- New Script: Proxmox Mail Gateway Post Installer [@thost96](https://github.com/thost96) ([#1559](https://github.com/community-scripts/ProxmoxVE/pull/1559))
+
+### 🚀 Updated Scripts
+
+- Fix Pocketbase URL after install [@MickLesk](https://github.com/MickLesk) ([#1597](https://github.com/community-scripts/ProxmoxVE/pull/1597))
+
 ## 2025-01-19
 
 ### Changed
