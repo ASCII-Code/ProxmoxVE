@@ -72,7 +72,8 @@ cat <<EOF > /etc/apache2/sites-available/wordpress.conf
 EOF
 $STD a2ensite wordpress.conf
 $STD a2dissite 000-default.conf
-systemctl reload apache2
+$STD a2enmod rewrite
+systemctl restart apache2
 msg_ok "Created Services"
 
 motd_ssh
